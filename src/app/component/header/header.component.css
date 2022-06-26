@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1% 7%;
+    position: fixed;
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    color: rgb(235, 100, 50);
+    font-size:40px;
+    font-weight: 700;
+}
+img:hover{
+    cursor: pointer;
+}
+.links{
+    color: rgb(254, 73, 8);
+    
+}
+.links:hover{
+    cursor: pointer;
+}
+button{
+    border-radius: 7px;
+    background-color: white;
+    color: rgb(235, 100, 50);
+    border: 1px solid rgb(235, 100, 50);
+    padding: 1% 2%;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(235, 100, 50);
+    color: white;
+    transition: .4s;
+}

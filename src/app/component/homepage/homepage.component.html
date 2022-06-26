@@ -1,0 +1,31 @@
+<main>
+    <div class="landing">
+        <p> Meet banking that keeps <br> pace with you</p>
+        <p>Open a fully free digital bank account and <br> revamp the way you bank</p>
+        <button>Download Now!</button>
+        <img src="/assets/img/rao-header.jpg" alt="">
+    </div>
+    <div class="banner">
+             <h1>Your smart account is backed by</h1>
+        <div class="cards">
+            <div *ngFor="let card of cards"  class="card">
+                <img [src]="card.mainImg" alt="" class="mainImg">
+                <div class="about">
+                    <p>{{card.name}}</p>
+                    <p>{{card.about}}</p>
+                    <div class="secondryImg">
+                        <img *ngFor="let img of card.secondImg " [src] = "img" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="secondbanner">
+        <div class="about">
+            <p>100% DIGITAL</p>
+            <p>Bank in a flash</p>
+            <p>Create a bank account while making a playlist or posting a picture. That’s 100% digital and zero percent painful.</p>
+        </div>
+        <img src="assets/vedio/ezgif.com-gif-maker.gif" alt="">
+    </div>
+</main>
